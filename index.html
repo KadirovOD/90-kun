@@ -1,207 +1,53 @@
 <!DOCTYPE html>
-<html class="dark" lang="uz">
+<html lang="uz">
 
 <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>90-Day EdTech Transformation | Registration</title>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
-        rel="stylesheet" />
-    <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "on-error": "#690005",
-                        "error-container": "#93000a",
-                        "on-tertiary": "#670023",
-                        "inverse-on-surface": "#323030",
-                        "primary": "#5adf81",
-                        "inverse-surface": "#e6e1e1",
-                        "inverse-primary": "#006d32",
-                        "on-tertiary-fixed-variant": "#8a1536",
-                        "primary-container": "#01a750",
-                        "on-surface": "#e6e1e1",
-                        "surface-container-high": "#2b2a29",
-                        "secondary-fixed": "#eae1db",
-                        "surface": "#141313",
-                        "background": "#141313",
-                        "surface-container-lowest": "#0f0e0e",
-                        "tertiary-fixed": "#ffd9dd",
-                        "on-error-container": "#ffdad6",
-                        "outline-variant": "#3d4a3e",
-                        "secondary": "#cdc5bf",
-                        "secondary-container": "#4d4844",
-                        "primary-fixed": "#78fd9a",
-                        "tertiary-fixed-dim": "#ffb2bc",
-                        "surface-variant": "#363434",
-                        "tertiary": "#ffb2bc",
-                        "on-primary-container": "#003213",
-                        "surface-bright": "#3a3939",
-                        "primary-fixed-dim": "#5adf81",
-                        "tertiary-container": "#ed627d",
-                        "surface-container": "#211f1f",
-                        "error": "#ffb4ab",
-                        "on-secondary-container": "#bfb7b1",
-                        "on-primary-fixed-variant": "#005224",
-                        "surface-container-highest": "#363434",
-                        "on-tertiary-fixed": "#400012",
-                        "on-primary": "#003917",
-                        "secondary-fixed-dim": "#cdc5bf",
-                        "on-background": "#e6e1e1",
-                        "outline": "#879486",
-                        "surface-dim": "#141313",
-                        "on-surface-variant": "#bccaba",
-                        "on-secondary-fixed": "#1f1b17",
-                        "on-secondary-fixed-variant": "#4b4642",
-                        "on-primary-fixed": "#00210a",
-                        "surface-container-low": "#1c1b1b",
-                        "on-secondary": "#34302c",
-                        "surface-tint": "#5adf81",
-                        "on-tertiary-container": "#5b001e"
-                    },
-                    fontFamily: {
-                        "headline": ["Space Grotesk"],
-                        "body": ["Inter"],
-                        "label": ["Space Grotesk"]
-                    },
-                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
-                },
-            },
-        }
-    </script>
-    <style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-
-        .neon-glow:hover {
-            box-shadow: 0 0 20px rgba(1, 167, 80, 0.6);
-            background-color: #78fd9a;
-        }
-
-        .kinetic-bg {
-            background-color: #100F0F;
-        }
-
-        .warm-bone {
-            color: #EDE4DE;
-        }
-
-        .emerald-accent {
-            color: #01A750;
-        }
-
-        .zero-gap-grid {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            gap: 0;
-        }
-
-        input:focus {
-            box-shadow: 0 2px 0 0 #01A750;
-            outline: none;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maktabni to'ldirish siri | 90 kun</title>
+    <!-- Google Fonts ishlatamiz, zamonaviy va toza ko'rinish uchun -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Oswald:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body
-    class="bg-[#100F0F] text-[#EDE4DE] font-body selection:bg-primary selection:text-on-primary min-h-screen flex flex-col">
-    <main class="flex-grow flex items-center justify-center relative overflow-hidden px-6 py-12">
-        <!-- Structural Background Element -->
-        <div class="absolute inset-0 z-0 pointer-events-none opacity-20">
-            <div class="absolute top-0 right-0 w-1/2 h-full bg-[#1C1B1B]"></div>
-        </div>
-        <div class="w-full max-w-7xl z-10 grid grid-cols-1 lg:grid-cols-12 gap-0 items-center">
-            <!-- Hero Content -->
-            <div class="lg:col-span-7 flex flex-col justify-center mb-12 lg:mb-0">
-                <div class="mb-4">
-                    <span class="font-label text-xs tracking-widest text-[#01A750] uppercase" style="">90 KUNDA TO‘LA
-                        SINF XONALAR</span>
+<body>
+    <div class="container main-page">
+        <!-- Chap (yoki asosiy) qism -->
+        <main class="content-wrapper">
+            <div class="headline-section">
+                <p class="subtitle">90 KUNDA TO'LA SINF XONALAR</p>
+                <h1 class="main-headline">QANDAY QILIB MAKTABINGIZNI 80%DAN KO'PROQQA TO'LDIRISH MUMKIN?</h1>
+
+                <div class="subheadline-wrapper">
+                    <div class="vertical-line"></div>
+                    <p class="subheadline">Muammolaringizga yechim bo'ladigan BEPUL diagnostikaga yoziling!</p>
                 </div>
-                <h1 class="font-headline font-black leading-[0.9] tracking-tighter text-[#EDE4DE] mb-8 uppercase text-4xl md:text-6xl lg:text-7xl"
-                    style="">
-                    qanday qilib maktabingizni 80%dan ko‘proqqa to‘ldirish mumkin?</h1>
-                <p class="font-body text-xl md:text-2xl text-[#EDE4DE]/70 max-w-xl border-l-4 border-[#01A750] pl-6 py-2"
-                    style="">
-                    Muammolaringizga yechim bo‘ladigan BEPUL diagnistikaga yoziling!
-                </p>
             </div>
-            <!-- Form Container (Recessed Layer) -->
-            <div
-                class="lg:col-span-5 bg-[#0F0E0E] p-8 md:p-12 self-center border-t-8 lg:border-t-0 lg:border-l-8 border-[#01A750]">
-                <form id="submit-to-google-sheet" class="space-y-10">
-                    <div class="relative">
-                        <label class="font-label text-[10px] tracking-widest text-[#01A750] uppercase block mb-2"
-                            for="name" style="">Ismingiz </label>
-                        <input
-                            class="w-full bg-transparent border-0 border-b-2 border-[#1C1B1B] focus:border-[#01A750] text-[#EDE4DE] font-body text-lg py-3 px-0 transition-all placeholder:text-[#EDE4DE]/20"
-                            id="name" name="Ism" placeholder="ISMINGIZNI KIRITING" required="" type="text" />
-                    </div>
-                    <div class="relative">
-                        <label class="font-label text-[10px] tracking-widest text-[#01A750] uppercase block mb-2"
-                            for="school" style="">Maktab Nomi </label>
-                        <input
-                            class="w-full bg-transparent border-0 border-b-2 border-[#1C1B1B] focus:border-[#01A750] text-[#EDE4DE] font-body text-lg py-3 px-0 transition-all placeholder:text-[#EDE4DE]/20"
-                            id="school" name="Maktab" placeholder="MUASSASA NOMINI KIRITING" required="" type="text" />
-                    </div>
-                    <div class="relative">
-                        <label class="font-label text-[10px] tracking-widest text-[#01A750] uppercase block mb-2"
-                            for="phone" style="">Telefon Raqamingiz </label>
-                        <input
-                            class="w-full bg-transparent border-0 border-b-2 border-[#1C1B1B] focus:border-[#01A750] text-[#EDE4DE] font-body text-lg py-3 px-0 transition-all placeholder:text-[#EDE4DE]/20"
-                            id="phone" name="Telefon" placeholder="+998 -- --- -- --" required="" type="tel" />
-                    </div>
-                    <div class="pt-6">
-                        <button id="submit-btn"
-                            class="w-full bg-[#01A750] text-[#100F0F] font-headline font-black text-lg py-6 uppercase tracking-tighter neon-glow transition-all active:scale-95 rounded-full"
-                            style="" type="submit">RO‘YXATDAN O‘TISH</button>
-                    </div>
-                    <p class="text-[10px] font-label text-[#EDE4DE]/40 uppercase tracking-widest text-center" style="">
-                        siz bilan eng qisqa vaqtda bog‘lanamiz</p>
-                    <span id="msg" class="text-[14px] font-body text-[#01A750] block text-center mt-2"></span>
-                </form>
+
+            <!-- YouTube Video joylashadigan bo'lim -->
+            <div class="video-section">
+                <div class="video-container">
+                    <!-- YouTube iframe -->
+                    <iframe src="https://www.youtube.com/embed/Yrvj_98TN_U?rel=0" title="Video" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
             </div>
-        </div>
-    </main>
 
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwv5OLIm6uqeL0hZIkCp5SYMbvYJZAoffLkLJJOlVFHsgvWkia00VUtVV7tryAbdTyUbA/exec';
-        const fileForm = document.getElementById('submit-to-google-sheet');
-        const msg = document.getElementById("msg");
-        const btn = document.getElementById("submit-btn");
+            <!-- Yashirin ro'yxatdan o'tish bo'limi (JS orqali ochiladi) -->
+            <div id="hidden-cta-section" class="cta-section hidden">
+                <a href="register.html" class="btn-primary">RO'YXATDAN O'TISH</a>
+                <p class="contact-number">Yoki tezkor bog'lanish uchun: <br><strong>(93) 136-06-66</strong></p>
+            </div>
+        </main>
+    </div>
 
-        fileForm.addEventListener('submit', e => {
-            e.preventDefault();
-            btn.innerText = "YUBORILMOQDA...";
-
-            fetch(scriptURL, {
-                method: 'POST',
-                body: new FormData(fileForm)
-            })
-                .then(response => {
-                    msg.innerText = "Ma'lumotlaringiz muvaffaqiyatli jo'natildi!";
-                    msg.className = "text-[14px] font-body text-[#01A750] block text-center mt-2";
-                    btn.innerText = "RO'YXATDAN O'TISH";
-                    setTimeout(function () {
-                        msg.innerText = "";
-                    }, 5000);
-                    fileForm.reset();
-                })
-                .catch(error => {
-                    console.error('Xatolik!', error.message);
-                    msg.innerText = "Xatolik yuz berdi. Qayta urinib ko'ring.";
-                    msg.className = "text-[14px] font-body text-red-500 block text-center mt-2";
-                    btn.innerText = "RO'YXATDAN O'TISH";
-                });
-        });
-    </script>
+    <!-- JS ulash -->
+    <script src="script.js"></script>
 </body>
 
 </html>
